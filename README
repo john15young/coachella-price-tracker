@@ -1,0 +1,22 @@
+# 🎟️ Coachella Weekend 2: Secondary Market Price Tracker
+
+## 🎯 Overview
+This project monitors and visualizes the secondary market price fluctuations for **Coachella 2026 Weekend 2**. By tracking the "get-in" price across major resale platforms, the script analyzes how live performances and social media sentiment from Weekend 1 influence the demand for the following weekend.
+
+While the festival features a diverse lineup including **Sabrina Carpenter** and **Karol G**, this analysis specifically focuses on the market's reaction to high-interest performances (such as Justin Bieber's festival comeback) and the subsequent demand spikes.
+
+## 🛠️ Implementation
+* **Data Sources:** Daily "get-in" price checks for 3-Day GA passes on **StubHub**, **SeatGeek**, **VividSeats**, and **Ticketmaster**.
+* **Consistency:** To minimize intra-day volatility, data is recorded daily between **4:00 PM – 6:00 PM PST**.
+* **Visualization:** Uses `matplotlib` to generate a time-series trend line, mapping the journey from the Saturday baseline to the opening of Weekend 2.
+
+## 📊 Tech Stack
+* **Python 3.x**
+* **Pandas:** For structured data management and CSV storage.
+* **Matplotlib:** For time-series data visualization.
+
+## 📈 Analysis Timeline (April 11–17, 2026)
+1. **The Baseline (April 11):** Establishing prices prior to the Saturday night headliner peak.
+2. **The Reaction (April 12):** Measuring the post-performance demand surge.
+3. **The Stabilization (April 13–15):** Monitoring mid-week market corrections.
+4. **The Final Floor (April 16–17):** Tracking last-minute price adjustments before the event begins.
